@@ -18,3 +18,15 @@
 0        search/4096    ={
 >&0      search/512     =padding-bottom:     CSS
 !:mime   text/css
+
+
+## MS Office Open XML spreadsheet
+0               string          PK\003\004
+!:strength + 20
+>30             string          [Content_Types].xml
+>>0             search/65536     xl/workbook.xml         Microsoft Excel 2007+
+!:mime application/vnd.openxmlformats-officedocument.spreadsheetml.sheet
+
+## UTF-16 little-endian CSV order export
+0               string          N\0o\0\ \0C\0l\0i\0e\0n\0t\0;\0N\0o\0\ \0C\0o\0m\0m\0a\0n\0d\0e\0;\0D\0a\0t\0e\0\ \0C\0o\0m\0m\0a\0n\0d\0e\0;\0N\0o\0\ \0A\0r\0t\0i\0c\0l\0e\0;\0E\0A\0N\0;\0        CSV order export
+!:mime text/csv
