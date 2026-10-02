@@ -18,6 +18,9 @@ exhibits=(
     spreadsheet1.ods
     spreadsheet1.ots
     spreadsheet1.xls
+    spreadsheet1.xlsx
+    spreadsheet2.xlsx
+    order.csv
     test.mkv
     test.ogv
     test.webm
