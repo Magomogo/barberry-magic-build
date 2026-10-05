@@ -18,6 +18,8 @@ exhibits=(
     spreadsheet1.ods
     spreadsheet1.ots
     spreadsheet1.xls
+    spreadsheet1.xlsx
+    spreadsheet2.xlsx
     test.mkv
     test.ogv
     test.webm
@@ -40,6 +42,7 @@ versions=(
     libmagic-5.37-php-7.4.0
     libmagic-5.39-php-8.0.0
     libmagic-5.40-php-8.1.0
+    libmagic-5.43-php-8.3.0
 )
 
 for version in "${versions[@]}"

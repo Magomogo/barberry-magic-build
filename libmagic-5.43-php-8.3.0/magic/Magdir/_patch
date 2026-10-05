@@ -18,3 +18,15 @@
 0        search/4096    ={
 >&0      search/512     =padding-bottom:     CSS
 !:mime   text/css
+
+
+# Microsoft Office Open XML spreadsheet (.xlsx)
+# ZIP entry order independent within the searched buffer.
+
+0       string          PK\003\004
+!:strength +20
+
+>0      search/65536    [Content_Types].xml
+>>0     search/65536    xl/workbook.xml         Microsoft Excel 2007+
+!:mime application/vnd.openxmlformats-officedocument.spreadsheetml.sheet
+!:ext xlsx
